@@ -9,6 +9,21 @@ ul li {
 	padding: 10px;
 }
 
+ul.header li {
+	float: left;
+	height: 60px;
+	color: #666666;
+	font-family: arial, sans-serif;
+}
+
+ul.header li a:visited{
+	color: #666666;
+}
+
+ul.header li a:hover {
+	text-decoration: underline;
+}
+
 div img {
 	    height: 92px;
         width: 272px;
@@ -51,6 +66,10 @@ html, body {
 	text-align: center;
 }
 
+.align {
+	padding-top: 3px;
+}
+
 .top {
 	color: #fff;
 	border: 1px solid #4285f4;
@@ -64,7 +83,7 @@ html, body {
 	width: 100%;
 	line-height: 38px;
 	margin-top: 25px;
-	background-image: url(mic.png);
+	background-image: url(../images/mic.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 25px;
